@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="we love nature" />
+    <meta name="keywords" content="nature" />
+    <meta name="robots" content="contact,follow" />
+    <meta name="author"  content="test" />
+    <title>project 5-1</title>
 
     <style>
       a{
@@ -65,15 +69,40 @@
           <a href="countact.html">
             <h2 style="color:rgb(84, 48, 100);" >countact us </h2>
           </a>
+
+   <form action="./register.html" method="post" enctype="multipart/form-data">
+            
+            <input type="text" name="firstname" placeholder="firstname..." required/>
+            <input type="text" name="lastname" placeholder="lastname..." required/>
+            <input type="tel" name="phone" placeholder="phone...">
+            <input type="number" name="age" min="16" max="90" step="1" /><br>
+            <input type="email" name="email" placeholder="email..."/>
+            <input type="password" name="password" placeholder="password"/>
+            <input type="image" src="" alt="" />
+            <input type="datetime-local" name="local" placeholder="date"/><br>
+            
+            <label for="education">education</label>
+               <select name="education" id="education">
+                  <option value="student">student</option>
+                  <option value="bachelorsdegree">bachelorsdegree</option>
+                  <option value="mastersdegree">mastersdegree</option>
+                  <option value="PHT">PHT</option>
+               </select>
+            <label for="continent">continent</label>
+                <select name="continent" id="continent">
+                     <option value="USA">USA</option>
+                     <option value="Asia">Asia</option>
+                     <option value="Africa">Africa</option>
+                     <option value="Australia">Australia</option>
+                     <option value="Europe">Europe</option>
+                </select><br>
+            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="comment"></textarea>
+            
+            <input type="submit" value="register" id="submit">
+
+   </form>
              
-              <p style="color: purple;" >
-                iran <br>
-                tehran <br>
-                mft,center  <br>
-                class : web 1 <br>
-                
-                E-mail: nooshin.eslahianappleid@gmail.com
-              </p>
+             
               <p align="right" >
                 <a href="#top" style="color: purple;">top</a>
               </p>
